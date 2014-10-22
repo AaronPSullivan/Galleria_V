@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Galleria_V Black Demo Version 1.2.2.1</title>
+<style type="text/css">
+<!--
+
+body { 
+	background: white; 
+	color:#666; 
+	font: normal 10px Verdana, Geneva, sans-serif;
+}
+#container { 
+	width: 736px;
+}
+p { 
+	padding: 0 0 10px 0;
+	margin: 0; 
+}
+h1 {
+	font: bold 14px Verdana, Geneva, sans-serif;
+	padding: 0;
+	margin: 12px 0 4px 0;
+}
+
+-->
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="galleria_v/galleria_v-1.2.2.1.js"></script>
+</head>
+
+<body>
+
+<div id="gallery">			
+	<a href="images/1.jpg"><img src="images/1_th.jpg" alt="Description Goes Here" title="Image Title" /></a>
+	<a href="images/2.jpg"><img src="images/2_th.jpg" alt="Description Goes Here" title="Image Title" /></a>
+	<a href="images/3.jpg"><img src="images/3_th.jpg" alt="Description Goes Here" title="Image Title" /></a>
+	<a href="images/4.jpg"><img src="images/4_th.jpg" alt="Description Goes Here" title="Image Title" /></a>
+	<a href="images/5.jpg"><img src="images/5_th.jpg" alt="Description Goes Here" title="Image Title" /></a>
+	<a href="images/6.jpg"><img src="images/6_th.jpg" alt="Description Goes Here" title="Image Title" /></a>
+	<a href="images/7.jpg"><img src="images/7_th.jpg" alt="Description Goes Here" title="Image Title" /></a>
+	<a href="images/8.jpg"><img src="images/8_th.jpg" alt="Description Goes Here" title="Image Title" /></a>
+	<a href="images/9.jpg"><img src="images/9_th.jpg" alt="Description Goes Here" title="Image Title" /></a>
+	<a href="images/10.jpg"><img src="images/10_th.jpg" alt="Description Goes Here" title="Image Title" /></a>
+	<a href="images/11.jpg"><img src="images/11_th.jpg" alt="Description Goes Here" title="Image Title" /></a>
+	<a href="images/12.jpg"><img src="images/12_th.jpg" alt="Description Goes Here" title="Image Title" /></a>
+	<a href="images/13.jpg"><img src="images/13_th.jpg" alt="Description Goes Here" title="Image Title" /></a>
+	<a href="images/14.jpg"><img src="images/14_th.jpg" alt="Description Goes Here" title="Image Title" /></a>
+	<a href="images/15.jpg"><img src="images/15_th.jpg" alt="Description Goes Here" title="Image Title" /></a> 
+	<script type="text/javascript"> 
+		Galleria.loadTheme("galleria_v/themes/classic_v_black/galleria.classic_v_black.js");				
+		$("#gallery").galleria({
+			width: 736,
+			height: 422,
+			imageCrop: true,
+			thumbCrop: true,
+			transitionSpeed: 500,
+			preload: 3,
+			easing: "galleriaIn",
+			showCounter: false,
+			transition: "fade",
+			transitionInitial: "fade",
+			showInfo: true,
+			showFullscreen: true
+		});
+	</script> 
+</div> 
+<div id="container">
+	<h1>Galleria_V Black</h1>
+	<p>Galleria_V is a modification of Aino's JavaScript Image Gallery "<a href="http://galleria.aino.se/">Galleria</a>" and the "Classic" theme. Galleria_V allows for a vertical carousel and enables fullscreen viewing capability. Galleria_V is not compatible with Galleria themes, however themes could be modified or created to function with Galleria_V. Galleria_V retains most of the functionality of Galleria but is not provided or supported by Aino.</p>
+</div>
+</body>
+</html>
